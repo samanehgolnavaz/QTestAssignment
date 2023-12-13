@@ -3,5 +3,5 @@
 public sealed record CreateEmployeeDto(
     string Name, 
     decimal salary, 
-    DateOnly birthOfDate,
+    DateTime birthOfDate,
     int departmentId);

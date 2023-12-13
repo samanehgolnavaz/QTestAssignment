@@ -8,7 +8,7 @@ public class Employee
 
     public decimal Salary { get; set; }
 
-    public DateOnly BirthOfDate { get; set; }
+    public DateTime BirthOfDate { get; set; }
 
     public int DepartmentId { get; set; }
 
